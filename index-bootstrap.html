@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these
+         tags -->
+    <title>Bootstrap Sticky Footer</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="sticky-footer-bootstrap.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+
+    <header class="page-row">
+      <!-- Style the inner div! -->
+      <div class="container-fluid template">
+        <h1>The One True Title</h1>
+        <hr />
+      </div>
+    </header>
+
+    <div class="page-row page-row-expanded">
+      <div class="container-fluid template">
+        <p>Page content: Say something!</p>
+      </div>
+    </div>
+
+    <footer class="page-row">
+      <!-- note how spacing is applied via the 'template' class INSIDE the page-row -->
+      <div class="container-fluid footer-content template">
+
+        <!-- 3 columns using bootstrap grid -->
+        <div class="row">
+          
+          <div class="col-md-4">
+            <h2><em>Ipsum</em></h2>
+            <ul class="list-unstyled">
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Donec imperdiet libero tempus sem varius, vitae iaculis ligula egestas.</li>
+              <li>Donec eleifend sem vel massa mollis blandit.</li>
+              <li>Fusce ornare diam nec convallis rhoncus.</li>
+              <li>Praesent at nisl ornare, pretium erat vel, auctor quam.</li>
+              <li>Nulla scelerisque lorem vestibulum mattis luctus.</li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h2><em>Vestibulum</em></h2>
+            <ul class="list-unstyled">
+              <li>Aliquam faucibus risus convallis lectus commodo, in malesuada justo sagittis.</li>
+              <li>Fusce vel odio tincidunt, egestas libero at, suscipit nulla.</li>
+              <li>In gravida tellus a lectus molestie, eu vestibulum massa dignissim.</li>
+              <li>Maecenas id lacus consequat, malesuada ligula venenatis, volutpat ex.</li>
+              <li>Ut ornare enim in sem feugiat, non imperdiet tellus condimentum.</li>
+              <li>Phasellus aliquet orci sit amet placerat pharetra.</li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h2><em>Meta</em></h2>
+            <ul class="list-unstyled">
+              <li>Phasellus dapibus erat nec venenatis sodales.</li>
+              <li>In feugiat urna non magna cursus malesuada.</li>
+            </ul>
+          </div>
+          
+        </div> <!-- end row -->
+        
+      </div> <!-- end container -->
+    </footer>
+
+  </body>
+</html>
